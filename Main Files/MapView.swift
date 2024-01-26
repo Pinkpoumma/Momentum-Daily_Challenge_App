@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MapView: View {
     @Binding var navigateToMapView: Bool
-
+ 
     var body: some View {
         VStack {
             Text("Recomendations")
