@@ -50,7 +50,7 @@ struct ProfileView: View {
             Button {
                 showUserSettings = true
             } label: {
-                Text("User Settings")
+                Text("User Setting")
                     .frame(maxWidth: .infinity, alignment: .center)
             }
             .buttonStyle(PrimaryButtonStyle())
