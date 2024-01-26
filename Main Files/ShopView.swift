@@ -58,7 +58,7 @@ struct ShopView: View {
         }
         .padding(.vertical, 8)
     }
-
+// 0.687646341463415 is the reletivity for the function decending
     private func themeRow(theme: String) -> some View {
         HStack {
             Text(theme)
