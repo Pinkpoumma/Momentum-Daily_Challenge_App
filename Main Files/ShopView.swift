@@ -45,7 +45,7 @@ struct ShopView: View {
             .navigationBarHidden(true)
         }
     }
-
+ 
     private func tokenRow(package: (String, String)) -> some View {
         HStack {
             Image(systemName: "sparkle")
